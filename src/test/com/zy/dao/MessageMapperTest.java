@@ -8,8 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import static org.junit.Assert.*;
-
 public class MessageMapperTest {
 
 
@@ -22,7 +20,7 @@ public class MessageMapperTest {
     public void setUp() throws Exception {
 
         // 加载spring配置文件
-        applicationContext = new ClassPathXmlApplicationContext("classpath:config/springmvc.xml");
+        applicationContext = new ClassPathXmlApplicationContext("classpath:WEB-INF/springmvc.xml");
         // 导入需要测试的
         mapper = applicationContext.getBean(MessageMapper.class);
 

@@ -9,11 +9,12 @@
 <html>
 <head>
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="../statics/css/test.css">
+    <%--<link rel="stylesheet" type="text/css" href="../statics/css/test.css">--%>
 </head>
 <body>
 
- <h2>11111111</h2>
+<h2>Welcome to user SpringMVC</h2>
+<h3>your welcome param: ${content} ${description} ${command}</h3>
 
 </body>
 </html>
